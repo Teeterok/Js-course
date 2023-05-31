@@ -87,9 +87,18 @@ let result = '';
 for (let i = 0; i < lines.length; i++) {
     lines[i] = "\n"
     for(let j = 0; j <= result.length; j++) {
-        result[j] =  "*"
+        result[j] =  "*";
         
     }
    
    console.log(result)
 }
+
+// Правильное использование функции
+const sum = 40
+
+function calc(a,b) {
+    console.log(a + b)
+}
+
+calc(10, sum)
