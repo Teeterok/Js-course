@@ -4,8 +4,6 @@ module.exports = {
 		"es2021": true
 	},
 	"extends": "eslint:recommended",
-	"overrides": [
-	],
 	"parserOptions": {
 		"ecmaVersion": "latest"
 	},
@@ -25,6 +23,9 @@ module.exports = {
 		"semi": [
 			"error",
 			"always"
-		]
+		],
+		"no-unused-vars": [
+			"warn"
+		],
 	}
 };
